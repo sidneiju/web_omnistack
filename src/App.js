@@ -1,7 +1,9 @@
 import React from "react";
+
 import "./styles.css";
 import "./App.css";
 import "./Sidebar.css";
+import "./Main.css";
 
 function App() {
   return (
