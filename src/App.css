@@ -1,28 +1,37 @@
 #App {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px 60px;
-        
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 #App main {
-    margin-left: 30px;
+  margin-left: 30px;
+  flex: 1;
+}
+
+#App aside {
+  width: 320px;
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 30px 20px;
 }
 
 @media (max-width: 1000px) {
-    #App {
-        flex-direction: column;
-    }
+  #App {
+    flex-direction: column;
+  }
 
-    #App main {
-        margin-left: 0;
-        margin-top: 30px;
-    }
+  #App main {
+    margin-left: 0;
+    margin-top: 30px;
+  }
 
-    #App aside {
-        width: 100%;
-    }
+  #App aside {
+    width: 100%;
+  }
 }
